@@ -1,0 +1,26 @@
+.title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.parent {
+  display: flex;
+}
+.item-image {
+  width: 5rem;
+}
+.button {
+  color: #fff;
+  border: none;
+  background-color: #4a90e2;
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: block;
+}
+.child {
+  display: flex;
+  flex-direction: row;
+}
+.description > p {
+  margin: 0 0 10px 0;
+}

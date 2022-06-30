@@ -1,14 +1,1 @@
-<!-- <hello name="{{ name }}"></hello> -->
-<p class="title">Recommended Items</p>
-<div class="parent">
-  <div class="child" *ngFor="let item of recommededItems">
-    <div>
-      <img class="item-image" [src]="item.ImageUrl" />
-    </div>
-    <div class="description"> 
-      <p>{{ item.Description }}</p>
-      <p>${{ item.Price }}</p>
-      <button class="button">ADD TO CART</button>
-    </div>
-  </div>
-</div>
+<recommended-items></recommended-items>
